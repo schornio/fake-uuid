@@ -1,0 +1,29 @@
+{
+  "name": "@schornio/fake-uuid",
+  "version": "1.0.0",
+  "description": "Fake uuid from string, because sometimes you need a uuid and you only have your plaintext id",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha --report html --dir ./report/coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schornio/fake-uuid.git"
+  },
+  "keywords": [
+    "fake",
+    "uuid",
+    "hash"
+  ],
+  "author": "Thomas Schorn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schornio/fake-uuid/issues"
+  },
+  "homepage": "https://github.com/schornio/fake-uuid#readme",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "istanbul": "^0.3.13",
+    "mocha": "^2.2.4"
+  }
+}
